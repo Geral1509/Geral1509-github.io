@@ -1,0 +1,188 @@
+<html>
+<head>
+  <title>BLOG DE COMIDA.com</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff8f0;
+    }
+
+    header {
+      background-color: #ff7f50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .div1 {
+      padding: 20px;
+    }
+
+    .personal {
+      margin-bottom: 30px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      background-color: #ffffff;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #ff6347;
+    }
+
+    /* Carrusel */
+    .carousel {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .movimiento {
+      display: flex;
+      width: 300%;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .movimiento img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .carousel-buttons {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+
+    .carousel-buttons button {
+      background-color: rgba(0,0,0,0.5);
+      border: none;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BLOG DE COMIDA🍝</h1>
+    <p>Bienvenido a la mejor pagina, en la que encontraras los mejores platillos y recetas que ninguna otra pagina tiene.</p>
+  </header>
+
+  <div class="div1">
+
+    <div class="personal">
+      <h2>MIS GUSTOS</h2>
+      <p>Te hablare desde un punto muy personal. Mi hobby favorito es comer, amo comer, es algo que podria hacer todos los dias a cada hora, desde algo dulce, salado o algo que tenga una leve pizca de agridulce, en conclusión de todo, aunque si soy honesta lo que mas me gusta comer es la comida casera, esa comida que te espera en casa despues de un día difícil. Esa si que es la mejor comida que pueda existir.</p>
+    </div>
+
+    <div class="personal">
+      <h2>RECETAS FAVORITAS</h2>
+      <h3>Estas recetas tal vez no sean de tu gusto al 100%, sin embargó, deberías darte la oportunidad de probar alguna de ellas, te aseguro que no te arrepentiras</h3>
+      <ul>
+        <li>Receta 1: Pollo en salsa de naranja
+        Esta receta es muy sencilla de hacer, al igual que los que se necesita es muy facil de conseguir
+ Ingredientes:  
+• 4 pechugas de pollo  
+• Jugo de 3 naranjas grandes  
+• Ralladura de 1 naranja  
+• 2 dientes de ajo picados  
+• 1 cebolla pequeña picada  
+• 1 cucharada de miel  
+• 1 cucharada de salsa de soja  
+• Sal y pimienta al gusto  
+• Aceite de oliva  
+
+Preparación:  
+1. Salpimienta el pollo y dóralo en una sartén con un poco de aceite hasta que esté bien sellado. Reserva.  
+2. En la misma sartén, sofríe la cebolla y el ajo hasta que estén transparentes.  
+3. Añade el jugo y la ralladura de naranja, la miel y la salsa de soja. Cocina a fuego medio hasta que la salsa reduzca un poco.  
+4. Vuelve a poner el pollo en la sartén, cubre con la salsa y cocina tapado unos 10-15 minutos hasta que el pollo esté tierno y bien impregnado.
+</li>
+        <li>Receta 2: Tarta de papa
+        En esta receta, aunque su nombre se escuche un poco raro, creanme que el sabor es increible, al igual que su elaboración, es muy facil de hacer
+Ingredientes:  
+• 4 papas grandes peladas y cortadas en rodajas finas  
+• 200 ml de crema de leche (nata)  
+• 150 g de queso rallado (puede ser mozzarella o un mezcla)  
+• 2 dientes de ajo picados  
+• Sal, pimienta y nuez moscada al gusto  
+• Mantequilla para engrasar  
+
+Preparación:  
+1. Precalienta el horno a 180 ºC. Engrasa una fuente para horno con mantequilla.  
+2. Coloca una capa de papas, salpimienta, añade un poco del ajo y queso rallado. Repite capas hasta acabar los ingredientes.  
+3. Vierte la crema por encima, asegurándote que llegue bien entre las capas. Añade un poco más de queso arriba para gratinar.  
+4. Hornea durante unos 45 minutos o hasta que las papas estén tiernas y la superficie doradas
+</li>
+        <li>Receta 3: Pollo en salsa verde con bolitas de masa
+        Por último, esta receta es de mis favoritas, es la comida que más se frecuenta en mi familia y muy rica por cierto. 
+ Ingredientes:  
+• 4 muslos o pechugas de pollo  
+• 300 g de tomatillos verdes (puedes usar tomates verdes si no hay tomatillos)  
+• 1 chile serrano o jalapeño (ajusta al gusto)  
+• 1/2 cebolla blanca  
+• Un manojo pequeño de cilantro fresco  
+• Sal al gusto  
+
+Para las bolas de masa (tipo dumplings o bolitas fritas):  
+• 200 g de masa para tortillas o masa harina preparada con agua tibia y sal (como para hacer tortillas)  
+• Aceite para freír  
+
+Preparación:  
+1. Cocer los tomatillos, chile y cebolla en agua hasta que estén suaves. Licúa junto con el cilantro y sal al gusto para hacer la salsa verde. Reserva.  
+2. En una sartén con aceite, dora el pollo por ambos lados hasta que esté casi cocido. Añade la salsa verde, tapa y cocina a fuego bajo unos 15 minutos más.
+</li>
+      </ul>
+    </div>
+
+    <div class="personal">
+      <h2>LA COMIDA EN IMAGENES</h2>
+      <div class="carousel">
+        <div class="movimiento" id="movimientos">
+          <img src="https://images.app.goo.gl/aP392" alt="Receta 1">
+          <img src="imagen2.jpg" alt="Receta 2">
+          <img src="imagen3.jpg" alt="Receta 3">
+        </div>
+        <div class="carousel-buttons">
+          <button onclick="moveSlide(-1)">&#10094;</button>
+          <button onclick="moveSlide(1)">&#10095;</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="personal">
+      <h2>CONTACTOS</h2>
+      <p>Este apartado tiene como finalidad que puedas contactarme por si en alguna de estas recetas que son mis favoritas, te hizo sentir identificado y puedas compartirme tu historia a travez de la comida.
+      Instagram:@bell_gim        Correo electronico:isabelmaar78@gmail.com</p>
+    </div>
+
+  </div>
+
+  <script>
+    let currentIndex = 0;
+
+    function moveSlide(direction) {
+      const movimiento = document.getElementById('slideImages');
+      const movimientos = slides.children.length;
+
+      currentIndex += direction;
+      if (currentIndex < 0) currentIndex = totalSlides - 1;
+      if (currentIndex >= totalSlides) currentIndex = 0;
+
+      const percentage = -100 * currentIndex;
+      slides.style.transform = 'translateX(' + percentage + '%)';
+    }
+  </script>
+
+</body>
+</html>
